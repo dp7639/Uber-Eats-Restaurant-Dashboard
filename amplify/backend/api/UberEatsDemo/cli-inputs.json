@@ -3,15 +3,20 @@
   "serviceConfiguration": {
     "apiName": "UberEatsDemo",
     "serviceName": "AppSync",
-    "gqlSchemaPath": "/tmp/amplify-7c2fa23e-0770-4651-8668-42737db8d6eb/amplify/backend/api/UberEatsDemo/schema.graphql",
+    "gqlSchemaPath": "/home/dp3993/uber-eats-project/uber-eats-restaurant-dashboard/amplify/backend/api/UberEatsDemo/schema.graphql",
     "defaultAuthType": {
-      "mode": "API_KEY",
-      "keyDescription": "api key description",
-      "expirationTime": 30
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authUberEatsDemo"
     },
     "additionalAuthTypes": [
       {
         "mode": "AWS_IAM"
+      },
+      {
+        "mode": "API_KEY",
+        "expirationTime": 31,
+        "apiKeyExpirationDate": "2022-08-24T15:12:10.851Z",
+        "keyDescription": "da2-6g4bdydtyrb5jmpje7hlvkxnfi"
       }
     ],
     "conflictResolution": {
