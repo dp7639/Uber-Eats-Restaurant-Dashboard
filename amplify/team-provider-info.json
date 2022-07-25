@@ -13,7 +13,8 @@
     },
     "categories": {
       "auth": {
-        "UberEatsDemo": {}
+        "UberEatsDemo": {},
+        "true": {}
       }
     }
   }
