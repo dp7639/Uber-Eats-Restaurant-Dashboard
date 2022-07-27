@@ -3,13 +3,13 @@ import SideMenu from './components/SideMenu';
 import AppRoutes from './components/AppRoutes';
 import { Amplify, API, graphqlOperation } from 'aws-amplify';
 import {withAuthenticator} from "@aws-amplify/ui-react";
-import awsconfig from './aws-exports';
+import awsmobile from './aws-exports';
 import "@aws-amplify/ui-react/styles.css";
 import RestaurantContextProvider from "./contexts/RestaurantContext";
 
 const {Sider,Content,Footer}=Layout;
 
-Amplify.configure(awsconfig);
+Amplify.configure(awsmobile);
 
 function App() {
   return (

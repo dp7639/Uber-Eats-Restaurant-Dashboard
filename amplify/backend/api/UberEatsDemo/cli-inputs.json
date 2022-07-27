@@ -14,9 +14,8 @@
       },
       {
         "mode": "API_KEY",
-        "expirationTime": 31,
-        "apiKeyExpirationDate": "2022-08-24T15:12:10.851Z",
-        "keyDescription": "da2-6g4bdydtyrb5jmpje7hlvkxnfi"
+        "expirationTime": 30,
+        "keyDescription": "api key description"
       }
     ],
     "conflictResolution": {
