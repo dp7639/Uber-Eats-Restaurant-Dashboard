@@ -2,11 +2,5 @@
   "AppSyncApiName": "UberEatsDemo",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
   "DynamoDBEnableServerSideEncryption": false,
-  "AuthCognitoUserPoolId": {
-    "Fn::GetAtt": [
-      "authUberEatsDemo",
-      "Outputs.UserPoolId"
-    ]
-  },
-  "AuthModeLastUpdated": "2022-07-25T22:01:14.145Z"
+  "AuthModeLastUpdated": "2022-08-07T13:41:17.610Z"
 }
