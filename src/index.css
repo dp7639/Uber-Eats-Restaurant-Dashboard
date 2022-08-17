@@ -22,3 +22,11 @@ li.ant-pagination-item-active a {
 .ant-menu-item-active {
   color:#3fc060 !important;
 }
+/* [data-amplify-authenticator][data-variation=modal] {
+  background-image: url("background.png");
+  width:500px;
+  height:300px;
+} */
+.ant-layout {
+  background-image: url("images/background.png");
+}

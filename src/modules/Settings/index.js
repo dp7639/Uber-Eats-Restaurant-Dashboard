@@ -72,7 +72,7 @@ const Settings = () => {
   };
 
   return (
-    <Card title="Restaurant Details" style={{ margin: 20 }}>
+    <Card title="Add your restaurant" style={{ margin: 20 }}>
       <Form layout="vertical" wrapperCol={{ span: 8 }} onFinish={onSubmit}>
         <Form.Item label="Restaurant Name" required>
           <Input
