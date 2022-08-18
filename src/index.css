@@ -30,3 +30,11 @@ li.ant-pagination-item-active a {
 /* .ant-layout {
   background-image: url("images/background.png");
 } */
+.ant-layout {
+  background:#3fc060 !important;
+}
+.restaurant-txt {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top:15px;
+}

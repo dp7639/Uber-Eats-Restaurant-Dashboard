@@ -52,7 +52,7 @@ const OrderHistory = () => {
       title: "Price",
       dataIndex: "total",
       key: "total",
-      render: (price) => `${price?.toFixed(2) ?? 0} $`,
+      render: (price) => `&#8377;${price?.toFixed(0) ?? 0}`,
     },
     {
       title: "Status",
@@ -62,7 +62,7 @@ const OrderHistory = () => {
     },
   ];
   return (
-    <Card title={"History Orders"} style={{ margin: 20 }}>
+    <Card title={"Order History"} style={{ margin: 20 }}>
       <Table
         dataSource={orders}
         columns={tableColumns}

@@ -79,14 +79,14 @@ const DetailedOrder = () => {
             <div style={{ fontWeight: "bold" }}>
               {dishItem.Dish.name} x{dishItem.quantity}
             </div>
-            <div>${dishItem.Dish.price}</div>
+            <div>&#8377;{dishItem.Dish.price}</div>
           </List.Item>
         )}
       />
       <Divider />
       <div style={styles.totalSumContainer}>
         <h2>Total:</h2>
-        <h2 style={styles.totalPrice}>${order?.total?.toFixed(2)}</h2>
+        <h2 style={styles.totalPrice}>&#8377;{order?.total?.toFixed(0)}</h2>
       </div>
       <Divider />
       {order.status === OrderStatus.NEW && (

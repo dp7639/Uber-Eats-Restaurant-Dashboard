@@ -66,7 +66,7 @@ const Orders = () => {
       title: "Price",
       dataIndex: "total",
       key: "total",
-      render: (price) => `${price.toFixed(2)} $`,
+      render: (price) => `&#8377;${price}`,
     },
     {
       title: "Status",

@@ -50,7 +50,7 @@ const mainMenuItems=[
     ];
     return (
         <>
-       {restaurant && <h4>{restaurant.name}</h4>}
+       {restaurant && <h4 className='restaurant-txt'>{restaurant.name}</h4>}
         <Menu items={menuItems} onClick={onClick} />
         </>
     )
