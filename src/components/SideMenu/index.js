@@ -2,7 +2,7 @@ import {Menu} from 'antd';
 import {useNavigate} from 'react-router-dom';
 import {Auth} from "aws-amplify";
 import {useRestaurantContext} from '../../contexts/RestaurantContext';
-import { IoRestaurant } from 'react-icons/io';
+import { IoRestaurant } from "react-icons/io5";
 
 const SideMenu=() => {
 const navigate=useNavigate();
