@@ -66,7 +66,7 @@ const Orders = () => {
       title: "Price",
       dataIndex: "total",
       key: "total",
-      render: (price) => `&#8377;${price}`,
+      render: (price) => `₹${price}`,
     },
     {
       title: "Status",
