@@ -36,10 +36,17 @@ li.ant-pagination-item-active a {
   height:auto;
 }
 .amplify-button--primary {
-  background-color:#00c544;
+  background-color:#00c544 !important;
+}
+.amplify-button--primary:hover {
+  background-color:black !important;
 }
 .amplify-button--link {
   color:#00c544 !important;
+}
+.amplify-button--link:hover .amplify-button--link {
+  background:none !important;
+  text-decoration:underline !important;
 }
 .amplify-tabs-item[data-state=active] {
   color:#00c544 !important;
