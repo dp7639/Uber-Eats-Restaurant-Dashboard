@@ -50,7 +50,7 @@ const mainMenuItems=[
     ];
     return (
         <>
-       {restaurant && <h4 className='restaurant-txt'><IoRestaurant color='#3fc060' /> {restaurant.name}</h4>}
+       {restaurant && <h4 className='restaurant-txt'><IoRestaurant color='#00c544' /> {restaurant.name}</h4>}
         <Menu items={menuItems} onClick={onClick} />
         </>
     )

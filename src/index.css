@@ -30,15 +30,31 @@ li.ant-pagination-item-active a {
 /* .ant-layout {
   background-image: url("images/background.png");
 } */
+[data-amplify-authenticator][data-variation=modal] {
+  background:url("../public/images/background1.png") !important;
+  width:100%;
+  height:auto;
+}
+.amplify-button--primary {
+  background-color:#00c544;
+}
+.amplify-button--link {
+  color:#00c544 !important;
+}
+.amplify-tabs-item[data-state=active] {
+  color:#00c544 !important;
+  border-color:#00c544 !important;
+}
 .ant-layout {
-  background:url("../public/images/background.png") !important;
+  /* background:url("../public/images/background.png") !important; */
+  background:url("https://www.supereasy.com/wp-content/uploads/2021/08/uber-eats-first-featured-1024x576.jpg") !important;
   width:100%;
   height:auto;
 }
 .restaurant-txt {
   background: #fafafa;
   border-bottom: 1px solid #f0f0f0;
-  color: rgba(0,0,0,.85);
+  color:#00c544;
   padding:10px;
   font-weight: bold;
   text-align: left;
