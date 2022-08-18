@@ -32,7 +32,7 @@ const RestaurantMenu = () => {
       title: "Price",
       dataIndex: "price",
       key: "price",
-      render: (price) => `&#8377;${price}`,
+      render: (price) => `₹ ${price}`,
     },
     {
       title: "Action",

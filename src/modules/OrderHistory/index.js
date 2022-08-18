@@ -52,7 +52,7 @@ const OrderHistory = () => {
       title: "Price",
       dataIndex: "total",
       key: "total",
-      render: (price) => `&#8377;${price?.toFixed(0) ?? 0}`,
+      render: (price) => `₹ ${price?.toFixed(0) ?? 0}`,
     },
     {
       title: "Status",

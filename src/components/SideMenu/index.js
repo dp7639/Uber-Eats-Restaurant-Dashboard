@@ -2,7 +2,7 @@ import {Menu} from 'antd';
 import {useNavigate} from 'react-router-dom';
 import {Auth} from "aws-amplify";
 import {useRestaurantContext} from '../../contexts/RestaurantContext';
-
+import { IoRestaurant } from 'react-icons/io';
 
 const SideMenu=() => {
 const navigate=useNavigate();
@@ -50,7 +50,7 @@ const mainMenuItems=[
     ];
     return (
         <>
-       {restaurant && <h4 className='restaurant-txt'>{restaurant.name}</h4>}
+       {restaurant && <h4 className='restaurant-txt'><IoRestaurant />{restaurant.name}</h4>}
         <Menu items={menuItems} onClick={onClick} />
         </>
     )
