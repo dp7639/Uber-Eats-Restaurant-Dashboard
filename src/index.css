@@ -36,10 +36,6 @@ li.ant-pagination-item-active a {
   height:auto;
 }
 .restaurant-txt {
-  /* font-weight: bold;
-  font-size: 22px;
-  margin-top:15px; */
-  /* font-weight: 500; */
   background: #fafafa;
   border-bottom: 1px solid #f0f0f0;
   color: rgba(0,0,0,.85);
@@ -48,4 +44,5 @@ li.ant-pagination-item-active a {
   text-align: left;
   transition: background .3s ease;
   margin-top:0;
+  font-size: 22px;
 }
