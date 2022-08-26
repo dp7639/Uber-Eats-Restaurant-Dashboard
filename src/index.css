@@ -22,16 +22,8 @@ li.ant-pagination-item-active a {
 .ant-menu-item-active {
   color:#3fc060 !important;
 }
-/* [data-amplify-authenticator][data-variation=modal] {
-  background-image: url("background.png");
-  width:500px;
-  height:300px;
-} */
-/* .ant-layout {
-  background-image: url("images/background.png");
-} */
 [data-amplify-authenticator][data-variation=modal] {
-  background:url("../public/images/background1.png") !important;
+  background:url("../public/images/background.png") !important;
   width:100%;
   height:auto;
 }
@@ -50,11 +42,10 @@ li.ant-pagination-item-active a {
 }
 .amplify-tabs-item[data-state=active] {
   color:#00c544 !important;
-  border-color:#00c544 !important;
+  border-color:hsl(141, 100%, 39%) !important;
 }
 .ant-layout {
-  /* background:url("../public/images/background.png") !important; */
-  background:url("../public/images/uber-eats-restaurant-dahboard-bg1.png") !important;
+  background:url("../public/images/uber-eats-restaurant-dahboard-bg.png") !important;
   width:100%;
   height:auto;
 }
